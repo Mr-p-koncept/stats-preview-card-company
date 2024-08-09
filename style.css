@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  section {
+    width: 1200px;
+    display: flex;
+    padding: 30px;
+    margin: 9% auto;
+  }
+
+  .main-container {
+    background-color: hsl(244, 38%, 16%);
+    height: 370px;
+    width: 500px;
+    margin-left: 120px;
+    padding: 50px;
+    box-shadow: 3px 10px 50px rgba(0, 0, 0, 0.233);
+  }
+
+  .image-container {
+    height: 370px;
+    width: 450px;
+    background-size: contain;
+    background-image: url(./images/image-header-desktop.jpg);
+    box-shadow: 3px 10px 50px rgba(0, 0, 0, 0.233);
+  }
+
+  .overlay {
+    height: 370px;
+    width: 450px;
+    background-color: hsla(277, 89%, 57%, 0.315);
+  }
+
+  header {
+    padding: 4px 0 4px 0;
+    margin-bottom: 20px;
+  }
+
+  header h1 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  span {
+    color: hsl(277, 64%, 61%);
+  }
+
+  .para {
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 60px;
+  }
+
+  .column-box {
+    columns: 3;
+    margin-right: 40px;
+  }
+
+  .box-one {
+    font-size: 14px;
+  }
+  .box-two {
+    font-size: 14px;
+  }
+  .box-three {
+    font-size: 14px;
+  }
+
+  .box-one p {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.589);
+    margin-top: 5px;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  .box-two p {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.589);
+    margin-top: 5px;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  .box-three p {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.589);
+    margin-top: 5px;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  .attribution {
+    margin-top: -120px;
+  }
+
+  .attribution a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+  }
+
+  .attribution a:hover {
+    color: rgb(129, 7, 103);
+    text-decoration: underline;
+  }
+}
